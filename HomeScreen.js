@@ -1,9 +1,9 @@
-import * as React from 'react';
+import React from 'react';
 import {View, Text} from 'react-native';
 import './styles'
 import styles from './styles';
 
-function HomeScreen() {
+export default function HomeScreen() {
     return (
         <View style={styles.container}>
             <Text>Home</Text>
